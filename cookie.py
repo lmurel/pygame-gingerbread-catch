@@ -2,6 +2,7 @@ import pygame as pg
 
 
 class Cookie(pg.sprite.Sprite):
+
     def __init__(self, x_cookie, speed_cookie, surf, score, group):
         pg.sprite.Sprite.__init__(self)
         self.image = surf
